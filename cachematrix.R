@@ -1,8 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
-#Example
 #The first function, makeVector creates a special "matrix", which is really a list containing a function to
 
 # - set the value of the vector
@@ -26,7 +22,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 #The following function calculates the inverse of the special "matrix" created with the above function.
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
